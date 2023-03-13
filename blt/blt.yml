@@ -1,2 +1,6 @@
 project:
   machine_name: acquia-d9-scaffold
+  human_name: 'Acquia D9 Scaffold'
+  local:
+    protocol: http
+    hostname: ${project.machine_name}.lndo.site
