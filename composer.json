@@ -12,6 +12,7 @@
     "require": {
         "php": ">=7.4",
         "acquia/acquia-cms-starterkit": "^1",
+        "acquia/blt": "^13.7",
         "acquia/drupal-environment-detector": "^1",
         "acquia/memcache-settings": "^1",
         "composer/installers": "^2.1",
@@ -25,6 +26,7 @@
     "require-dev": {
         "acquia/coding-standards": "^2.0.0",
         "mglaman/phpstan-drupal": "^1.1",
+        "mikemadison13/blt-lando": "dev-main",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan": "^1.6",
         "phpstan/phpstan-deprecation-rules": "^1.0",
@@ -39,7 +41,8 @@
             "drupal/core-composer-scaffold": true,
             "ergebnis/composer-normalize": true,
             "oomphinc/composer-installers-extender": true,
-            "phpstan/extension-installer": true
+            "phpstan/extension-installer": true,
+            "acquia/blt": true
         },
         "platform": {
             "php": "7.4"
